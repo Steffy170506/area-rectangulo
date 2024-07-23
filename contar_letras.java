@@ -7,7 +7,7 @@ public class contar_letras {
         Scanner Teclado =new Scanner(System.in);
         String Palabra;
         int contador = 0;
-        System.out.print("ingresa una palabra: ");
+        System.out.print("ingresa una palabra");
         Palabra = Teclado.nextLine();
         for (int i = 0; i < Palabra.length(); i++) {
             if(Palabra.charAt(i)=='a'){
@@ -15,7 +15,7 @@ public class contar_letras {
 
             }
         }
-        System.out.println("el numero de letras a es: " + contador);
+        System.out.println("el numero de letras a es" + contador);
         Scanner close;
 
 }
